@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+html {
+    background: url(https://i.ibb.co/W2KG4w0/dance-1940245.jpg) no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
+  }
+
+p {
+    margin: 0.5em 0 0.5em 0;
+}
+
+header{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 10px 0 0 0;
+}
+
+nav a:visited,
+nav a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+nav > div> ul {
+    display: inline;
+    padding: 0;
+}
+
+nav > div> ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 5px;
+}
+
+nav > div { 
+    display: inline-block;
+}
+
+nav > img {
+  height: 60px;
+}
+
+main {
+    display: block;
+    min-height: 85%;
+}
+
+.topnav, .topnav-right {
+    
+    overflow: hidden;
+  }
+
+  .topnav-right {
+    float: right;
+  }
+
+  .topnav a {
+    float: left;
+    color: #575353;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav-right a {
+    float: left;
+    color: #575353;
+    text-align: center;
+    padding: 14px 10px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .topnav a:hover, .topnav-right a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #91061b;
+    color: white;
+  }
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    padding: 15px;
+  }
+
+  footer > nav > ul {
+    display: inline;
+    padding: 0;
+  }
+
+  footer > nav > ul > li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 5px 0 5px;
+  }
+
+  .container {
+    margin-top:10%;
+  }
+
+  button {
+    border: 1px solid;
+    border-color: #91061b;
+  }
+
+  @media (max-width: 768px) {
+    .topnav-right {
+      display: none;
+    }
+  }
