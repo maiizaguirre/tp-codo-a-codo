@@ -47,6 +47,7 @@ nav > div {
 
 nav > img {
   height: 60px;
+  border-radius: 50%;
 }
 
 main {
