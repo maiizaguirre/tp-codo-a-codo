@@ -6,8 +6,6 @@ const url = 'https://jsonplaceholder.typicode.com/users';
 const respuesta = document.querySelector("#respuesta");
 //evento
 document.addEventListener("DOMContentLoaded", llamarAPI);
-
-
 //funciones
 function llamarAPI(){
   fetch(url)
