@@ -162,7 +162,7 @@ color: aquamarine;
   display:flex;
   align-self: flex;
   justify-content: center;
-  background-color: none;
+  background-color: #fff;
   padding: 0;
 
 }

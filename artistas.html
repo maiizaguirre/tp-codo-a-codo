@@ -2,29 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>ART HUB</title>
+    <title>ARTISTAS</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="artistas.css">    
+    <link rel="stylesheet" href="styles.css">    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <script src="https://kit.fontawesome.com/67f5b40d62.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <header>
-        
-        <nav>
-        <img src="ART.png" id="logo" class="animate__animated animate__flash">
+        <nav class="nav-padre">
+        <img class="logo" src="ART.png" id="logo" class="animate__animated animate__flash">
+        <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
         <div class="topnav">
-        
-            <ul>
-                <li><a class="active" href="/">Inicio</a></li>
+            <ul class="list-menu">
+                <li><a  href="/">Inicio</a></li>
                 <li><a href="artistas.html"><i class="fa fa-users"></i> Artistas</a></li>
                 <li><a href="eventos.html"><i class="fa fa-calendar"></i> Eventos</a></li>
                 <li><a href="contacto.html"><i class="fa fa-envelope"></i> Contacto</a></li>
             </ul>
         </div>
-        <div class="topnav-right">
+        <!-- <div class="topnav-right">
             <ul>
                 <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a></li>
                 <li><a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a></li>
@@ -32,62 +33,33 @@
                 <li><a href="https://www.twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a></li>
                 <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin w3-hover-opacity"></i></a></li>
             </ul>
-        </div>
+        </div> -->
         </nav>
         
     </header>
     
     <main>
-        <div class="row"> 
-            <div class="column">
-              <img src="/w3images/wedding.jpg" style="width:100%">
-              <img src="/w3images/rocks.jpg" style="width:100%">
-              <img src="/w3images/falls2.jpg" style="width:100%">
-              <img src="/w3images/paris.jpg" style="width:100%">
-              <img src="/w3images/nature.jpg" style="width:100%">
-              <img src="/w3images/mist.jpg" style="width:100%">
-              <img src="/w3images/paris.jpg" style="width:100%">
-            </div>
-            
-            <div class="column">
-              <img src="/w3images/underwater.jpg" style="width:100%">
-              <img src="/w3images/ocean.jpg" style="width:100%">
-              <img src="/w3images/wedding.jpg" style="width:100%">
-              <img src="/w3images/mountainskies.jpg" style="width:100%">
-              <img src="/w3images/rocks.jpg" style="width:100%">
-              <img src="/w3images/underwater.jpg" style="width:100%">
-            </div> 
-             
-            <div class="column">
-              <img src="/w3images/wedding.jpg" style="width:100%">
-              <img src="/w3images/rocks.jpg" style="width:100%">
-              <img src="/w3images/falls2.jpg" style="width:100%">
-              <img src="/w3images/paris.jpg" style="width:100%">
-              <img src="/w3images/nature.jpg" style="width:100%">
-              <img src="/w3images/mist.jpg" style="width:100%">
-              <img src="/w3images/paris.jpg" style="width:100%">
-            </div>
-            
-            <div class="column">
-              <img src="/w3images/underwater.jpg" style="width:100%">
-              <img src="/w3images/ocean.jpg" style="width:100%">
-              <img src="/w3images/wedding.jpg" style="width:100%">
-              <img src="/w3images/mountainskies.jpg" style="width:100%">
-              <img src="/w3images/rocks.jpg" style="width:100%">
-              <img src="/w3images/underwater.jpg" style="width:100%">
-            </div>
-          </div>
+        
     </main>
 
     <footer>
-        <nav>
-            <ul>
-                <li><a href="/">Inicio</a></li>
-                <li><a href="artistas.html">Artistas</a></li>
-                <li><a href="eventos.html">Eventos</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
+        
+        <div class="nosotros">
+            <h1>SOBRE NOSOTROS</h1>
+            <p class="parrafo-footer">Nos dedicamos a compartir información de artistas y eventos culturales</p>
+        </div>
+        <div class="siguenos">
+            <h5>SEGUINOS EN</h5>
+            <ul class="siguenos-iconos">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.github.com/"><i class="fa fa-github w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin w3-hover-opacity"></i></a></li>
             </ul>
-        </nav>
+        </div>
+        <img class="logo-footer" src="ART.png">
+       
     </footer>
 </body>
 </html>
