@@ -126,9 +126,9 @@ color: aquamarine;
 }
 .contacto{
   display:flex;
-  align-self: flex-start;
+  align-self: flex;
   justify-content: center;
-  background-color: azure;
+  background-color: none;
   padding: 0;
 
 }
