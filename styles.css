@@ -10,37 +10,42 @@ html {
     height: 100%;
     overflow: hidden;
   }
-header{
+header {
     top: 0;
     left: 0;
     width: 100%;
     margin: 10px 0 0 0;
 }
-.nav-padre{
+.nav-padre {
   display: flex;
   margin: 0;
   padding: 0;
   align-items: center;
-  justify-content: space-between;
+  justify-content: left;
 }
+
+.topnav-right {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    justify-content: right;
+}
+
 .nav-toggle {
   display: none;
   background: none;
   border: none;
   font-size: 30px;
   color: white;
-  border: none;
   line-height: 60px;
-  font-size: 30px;
   cursor: pointer;
- 
 }
 
 .logo{
   height: 60px;
   margin-left: 3%;
   border-radius: 50%;
-  background-color: #91061b;
   transition: transform .75s;
 }
 .logo:hover {
@@ -53,12 +58,12 @@ nav a:link {
     text-decoration: none;
 }
 
-nav > div> ul {
+ul {
     display: inline;
     padding: 0;
 }
 
-nav > div> ul >li {
+li {
     display: inline-block;
     list-style: none;
     margin: 0 0 0 5px;
@@ -75,23 +80,28 @@ footer{
   height: 15%;
   margin-top: 10px;
   padding: 15px;
-  color: aliceblue;
+  color: #ffffff;
   display: flex;
-  background: rgb(16,7,163);
-  background: linear-gradient(0deg, rgba(16,7,163,1) 15%, rgba(207,70,211,0) 78%);
-  justify-content: space-around;
+  background: none;
+  background: linear-gradient(0deg, #91061b 15%, rgba(207,70,211,0) 78%);
+  justify-content: right;
   position: fixed;
   bottom: 0;
+  right: 10px;
   font-size: 12px;
   width: 100%;
 }
 footer > img{
-  width: 100px;
+  margin-top: 50px;
+  display: inline-block;
+  left: 0;
+  width: 50px;
+  height: 50px;
+  text-align: center;
   border-radius: 50%;
-  background-color: #91061b;
 }
 .nosotros, .siguenos{
-  margin-top: 15px;
+  margin-top: 40px;
   align-items: center;
   justify-content: center;
   padding: 15px;
@@ -150,7 +160,7 @@ main {
   }
 
    .topnav-right a {
-    float: left;
+    float: right;
     color: #575353;
     text-align: center;
     padding: 14px 10px;
