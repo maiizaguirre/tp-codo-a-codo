@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ART HUB</title>
+    <link rel="shortcut icon" href="ART.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <script src="https://kit.fontawesome.com/67f5b40d62.js" crossorigin="anonymous"></script>
+    <script defer src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav class="nav-padre">
+        <img class="logo" src="ART.png" id="logo" class="animate__animated animate__flash">
+        <button class="nav-toggle" aria-label="Abrir menú">
+            <i class="fas fa-bars"></i>
+          </button>
+        <div class="topnav">
+            <ul class="list-menu">
+                <li><a  href="/">Inicio</a></li>
+                <li><a href="artistas.html"><i class="fa fa-users"></i> Artistas</a></li>
+                <li><a href="eventos.html"><i class="fa fa-calendar"></i> Eventos</a></li>
+                <li><a href="contacto.html"><i class="fa fa-envelope"></i> Contacto</a></li>
+            </ul>
+        </div>
+        <!-- <div class="topnav-right">
+            <ul>
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.github.com/"><i class="fa fa-github w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin w3-hover-opacity"></i></a></li>
+            </ul>
+        </div> -->
+        </nav>
+        
+    </header>
+    
+    <main>
+        <h1>Ganadores del mes!</h1>
+        <!-- https://flatuicolors.com/-->
+        <!--https://fonts.google.com/-->
+
+        
+        
+        
+        <table border="1">
+            <thead>
+                <tr>
+                    
+                    <th>NOMBRE</th>
+                    <th>EMAIL</th>
+                    <th>CIUDAD</th>
+                </tr>
+            </thead>
+            <tbody id="respuesta">
+                <!--aqui inyecta datos de la API-->
+            </tbody>
+        </table>
+       
+
+
+
+        <div class="container" id="container">
+        <script src="index.js"></script>
+    </main>
+
+    <footer>
+        
+        <div class="nosotros">
+            <h1>SOBRE NOSOTROS</h1>
+            <p class="parrafo-footer">Nos dedicamos a compartir información de artistas y eventos culturales</p>
+        </div>
+        <div class="siguenos">
+            <h5>SEGUINOS EN</h5>
+            <ul class="siguenos-iconos">
+                <li><a href="https://www.facebook.com/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.instagram.com/"><i class="fa fa-instagram w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.github.com/"><i class="fa fa-github w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.twitter.com/"><i class="fa fa-twitter w3-hover-opacity"></i></a></li>
+                <li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin w3-hover-opacity"></i></a></li>
+            </ul>
+        </div>
+        <img class="logo-footer" src="ART.png">
+       
+    </footer>
+</body>
+</html>
