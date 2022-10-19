@@ -8,7 +8,6 @@ html {
     background: url(https://i.ibb.co/W2KG4w0/dance-1940245.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
-    overflow: hidden;
   }
 
   header {
@@ -54,16 +53,18 @@ table tbody {
 }
 
 
-iframe {
-  border: 1px solid black;
-  width: 30%;
-  margin: 10px auto 10px auto;
+.container-mapa{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
 }
 
-
-
-
-
+iframe {
+  border: 1px solid black;
+  
+  margin: 10px auto 10px auto;
+}
 
 
 .nav-padre {
@@ -71,7 +72,7 @@ iframe {
   margin: 0;
   padding: 0;
   align-items: center;
-  justify-content: left;
+  justify-content: space-between;
 }
 
 .topnav-right {
@@ -94,9 +95,10 @@ iframe {
 
 .logo{
   height: 60px;
-  margin-left: 3%;
+  margin-left: 0%;
   border-radius: 50%;
   transition: transform .75s;
+  text-align: initial;
 }
 .logo:hover {
   transform:scale(1.45);
@@ -132,12 +134,11 @@ footer{
   padding: 15px;
   color: #ffffff;
   display: flex;
-  background: none;
   background: linear-gradient(0deg, #91061b 15%, rgba(207,70,211,0) 78%);
   justify-content: right;
   position: fixed;
   bottom: 0;
-  right: 10px;
+  right: 0;
   font-size: 12px;
   width: 100%;
 }
@@ -176,23 +177,25 @@ color: rgb(25, 163, 255);
 }
 .contacto{
   display:flex;
-  align-self: flex;
-  justify-content: center;
+  width: 80vw;
+  border-radius: 5%;
   background-color: #fff;
   padding: 0;
   
 }
 .formulario{
   margin:0 5%;
-  width: 100vw;
+  width: 50%;
   
 }
+
 
 main {
     display:flex;
     padding: 0;
     margin: 0;
  }
+
 
 
 
@@ -228,7 +231,16 @@ main {
     background-color: #91061b;
     color: white;
   }
-  
+  main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .formulario-eventos{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 150px;
+  }
   
   @media (max-width: 768px) {
    
