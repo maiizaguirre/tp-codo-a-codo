@@ -10,7 +10,7 @@ html {
     height: 100%;
   }
 
-  header {
+header {
     top: 0;
     left: 0;
     width: 100%;
@@ -93,9 +93,9 @@ iframe {
   cursor: pointer;
 }
 
-.logo{
+.logo {
   height: 60px;
-  margin-left: 0%;
+  margin-left: 25px;
   border-radius: 50%;
   transition: transform .75s;
   text-align: initial;
@@ -128,31 +128,31 @@ p {
   margin: 0.5em 0 0.5em 0;
 }
 
-footer{  
+footer {  
   height: 15%;
   margin-top: 10px;
   padding: 15px;
   color: #ffffff;
   display: flex;
   background: linear-gradient(0deg, #91061b 15%, rgba(207,70,211,0) 78%);
-  justify-content: right;
+  justify-content: space-between;
   position: fixed;
   bottom: 0;
   right: 0;
   font-size: 12px;
   width: 100%;
 }
-footer > img{
+.logo-footer {
   margin-top: 50px;
-  display: inline-block;
-  left: 0;
+  margin-left: 25px;
+  display: flex;
   width: 50px;
   height: 50px;
   text-align: center;
   border-radius: 50%;
 }
 .nosotros, .siguenos{
-  margin-top: 40px;
+  margin: 30px;
   align-items: center;
   justify-content: center;
   padding: 15px;
