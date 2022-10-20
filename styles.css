@@ -8,6 +8,7 @@ html {
     background: url(https://i.ibb.co/W2KG4w0/dance-1940245.jpg) no-repeat center center fixed;
     background-size: cover;
     height: 100%;
+    color: #ddd;
   }
 
 header {
@@ -15,6 +16,7 @@ header {
     left: 0;
     width: 100%;
     margin: 10px 0 0 0;
+    position: top;
 }
 
 h1 {
@@ -152,19 +154,18 @@ p {
 }
 
 footer {  
-  height: 15%;
-  margin-top: 10px;
-  padding: 15px;
   color: #ffffff;
   display: flex;
   background: linear-gradient(0deg, #91061b 15%, rgba(207,70,211,0) 78%);
   justify-content: space-between;
-  position: fixed;
+  position: relative;
   bottom: 0;
   right: 0;
   font-size: 12px;
   width: 100%;
+  
 }
+
 .logo-footer {
   margin-top: 50px;
   margin-left: 25px;
@@ -174,15 +175,18 @@ footer {
   text-align: center;
   border-radius: 50%;
 }
+
 .nosotros, .siguenos{
   margin: 30px;
   align-items: center;
   justify-content: center;
   padding: 15px;
 }
+
 .siguenos h2,.nosotros h1{
-font-size: 20px;
+font-size: 12px;
 }
+
 .siguenos-iconos{
   display: flex;
   text-decoration: none;
@@ -198,31 +202,24 @@ font-size: 20px;
 .siguenos-iconos a:hover{
 color: rgb(25, 163, 255);
 }
+
 .contacto{
   display:flex;
   width: 80vw;
   border-radius: 5%;
   background-color: #fff;
   padding: 0;
+  color:#2c3e50;
+  font-size: 12px;
+  overflow: auto;
   
 }
-.formulario{
+.formulario {
   margin:0 5%;
-  width: 50%;
-  
+  width: 50%;  
 }
 
-
-main {
-    display:flex;
-    padding: 0;
-    margin: 0;
- }
-
-
-
-
-  .topnav-right {
+.topnav-right {
     float: right;
   }
 
@@ -254,11 +251,14 @@ main {
     background-color: #91061b;
     color: white;
   }
-  main{
+  
+  main {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 2vw;
   }
+
   .formulario-eventos{
     display: flex;
     flex-direction: column;
@@ -274,14 +274,14 @@ main {
       display: none;
     }
     .siguenos h2,.nosotros h1{
-      font-size: 10px;
+      font-size: 12px;
     }
   }
 
   @media (max-width: 576px) {
 
     .logo{
-      position: fixed;
+      position: relative;
       top:5px;
       left: 38vw;
     }
@@ -316,4 +316,25 @@ main {
     .nav-toggle:focus:not(:focus-visible) {
       outline: none;
     }
+  }
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
   }
