@@ -212,7 +212,7 @@ color: rgb(25, 163, 255);
 .contacto{
   display:flex;
   width: 80vw;
-  border-radius: 8%;
+  border-radius: 5%;
   background-color: #fff;
   padding: 0;
   color:#2c3e50;
