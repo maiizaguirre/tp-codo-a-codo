@@ -281,6 +281,7 @@ iframe {
     justify-content: center;
     align-items: center;
     margin: 2vw;
+    
   }
 
   .formulario-eventos{
@@ -288,10 +289,6 @@ iframe {
     flex-direction: column;
     margin-bottom: 150px;
     color: #2c3e50;
-  }
-
-  .tabla-eventos {
-    margin-top: 0;
   }
   
   @media (max-width: 768px) {
