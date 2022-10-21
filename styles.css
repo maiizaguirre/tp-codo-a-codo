@@ -53,31 +53,37 @@ table thead {
 table tbody {
   background-color: #ffffff;
 }
+.centro img{
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  
+}
 .separador1{
-  height: 500px;
+  height: 16px;
+  clear: both;
 }
-.artista1{
-  width: 25%;
-  margin-left:100px;
-  margin-right: auto;
-  display: block;
-  border-radius: 20px;
-
+.separador2{
+  width: 2%;
+  height: 1px;
+  float: left;  
 }
-.artista2{
-  width: 20%;
-  margin-left:100px;
-  margin-right: auto;
-  display: block;
-  border-radius: 20px;
-
+div img{
+width: 40%;
+float: left;
+border-radius: 20px;
 }
 img{
-  transition: all 0.5s ease;
+  transition: all 1s ease;
 }
 img:hover{
   transform: scale(0.9);
 }
+
+
+
+
 .container-mapa{
   display: flex;
   flex-direction: column;
@@ -206,7 +212,7 @@ color: rgb(25, 163, 255);
 .contacto{
   display:flex;
   width: 80vw;
-  border-radius: 5%;
+  border-radius: 8%;
   background-color: #fff;
   padding: 0;
   color:#2c3e50;
@@ -257,6 +263,7 @@ color: rgb(25, 163, 255);
     justify-content: center;
     align-items: center;
     margin: 2vw;
+    
   }
 
   .formulario-eventos{
